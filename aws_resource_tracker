@@ -1,0 +1,21 @@
+#!/bin/bash
+
+LOG_FILE="aws_resource_tracker.log"
+
+echo "Starting AWS Resource Tracker" 
+
+# List EC2 Instances
+echo "Listing EC2 Instances..." 
+aws ec2 describe-instances 
+
+# List S3 Buckets
+echo "Listing S3 Buckets..." 
+aws s3 ls 
+
+# List IAM Users
+echo "Listing IAM Users..." 
+aws iam list-users 
+
+# List Lambda Functions
+echo "Listing Lambda Functions..." 
+aws lambda list-functions 
