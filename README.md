@@ -1,7 +1,3 @@
-Got it! ✅ You want to create a **README.md** file for your GitHub repo that explains shell scripting for accessing AWS resources and APIs. Here’s a good starting point:
-
----
-
 # Shell Scripting for AWS & API Access
 
 This repository contains shell scripts that demonstrate how to interact with **AWS resources** and **REST APIs** using simple Bash commands.
